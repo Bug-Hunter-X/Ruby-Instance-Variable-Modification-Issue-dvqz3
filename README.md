@@ -1,0 +1,3 @@
+# Ruby Instance Variable Unexpected Behavior
+
+This repository demonstrates an uncommon issue in Ruby related to modifying instance variables.  When directly using `instance_variable_set`, the instance variable is successfully modified. However, attempting to modify the instance variable through the accessor method (`value=`) unexpectedly fails to change the instance variable's value. The example code clarifies this behavior.
